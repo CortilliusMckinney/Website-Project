@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>The Lighthouse Bistro Menu Index</title>
+    <link rel="stylesheet" type="text/css" href="bistro.css">
+    <script src="myjs.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>The Lighthouse Bistro</h1>
+        <nav>
+            <!--begin of nav -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Our&nbsp;Menu</a></li>
+                <li><a href="index.html">Entertainment</a></li>
+                <li><a href="index.html">Schedule</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+            <div id="address">
+                The Lighthouse Bistro
+                <br> #27 Lighthouse Road
+                <br> Mackinac City, Michigan
+                <br>49701
+                <br>
+                <br>
+                <a href="tel:888-555-5555" class="mobel">888-555-5555</a><span class="desktop">888-555-5555</span>
+            </div>
+        </nav>
+        <!--End of nav -->
+        <main>
+            <h3 style="text-align: left;">Reservation at The Lighthouse Bistro</h3>
+            <h4 style="text-align: left;">Contact &nbsp;Us &nbsp;Today &nbsp;To &nbsp;Make &nbsp;Your  &nbsp;Dining  &nbsp;Reservation!</h4>
+            <form action="http://cs.ucf.edu/~mark1/bistroformreport.php" method="get" class="tborder" style="color: #00008B ; 
+                       				 background-color:#eaecee">
+                <label for="Firstname" class="fname">*First Name:</label>
+                <input type="text" id="Firstname" name="firstname" autofocus>
+                <br>
+                <br>
+                <label for="Lastname" class="lname">*Last Name:</label>
+                <input type="text" id="Lastname" name="lastname">
+                <br>
+                <br>
+                <label for="E-mail" class="mail">*E-mail:</label>
+                <input type="email" id="E-mail" name="email">
+                <br>
+                <br>
+                <label for="Phone" class="phone">Phone:</label>
+                <input type="tel" id="Phone" name="phone">
+                <br>
+                <br>
+                <label for="Date" class="date">Date:</label>
+                <input type="date" id="Date" class="Date" name="date">
+                <br>
+                <br>
+                <label for="time" class="time">Time:</label>
+                <input type="time" id="time" name="time">
+                <br>
+                <br>
+                <label for="NumberofGuests" class="guest">Number of Guests:</label>
+                <input type="number" id="NumberofGuests" name="numberofguess">
+                <br>
+                <br>
+                <label for="Comments" class="comment">Comments:</label>
+                <textarea id="Comments"></textarea>
+                <br>
+                <br>
+                <input type="Submit" name="Submit">
+            </form>
+        </main>
+        <!--end of main -->
+        <footer>
+            <p>
+                Copyright &copy; 2017 The Lighthouse Bistro
+                <br><a href="Cortillius@Mckinney.com" style="color: EAEAEA">Cortillius@Mckinney.com</a>
+            </p>
+            <p id="ftime"></p>
+            <br>
+        </footer>
+    </div>
+</body>
+
+</html>

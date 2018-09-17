@@ -1,0 +1,385 @@
+body {
+    backgroundColor: "#00BFFF",
+    backgroundImage: "url(ocean.jpg)",
+    backgroundRepeat: "repeat-x",
+    color: "#221811",
+    fontFamily: "Verdana",
+}
+
+h1 {
+    color: "#00008B",
+    lineHeight: "200%",
+    backgroundColor: "#191970",
+    backgroundImage: "url(lighthouselogo.jpg)",
+    backgroundPosition: "left",
+    backgroundRepeat: "no-repeat",
+    textAlign: "center",
+    height: "125px",
+    border: "1px solid #FFE4C4",
+    borderRadius: "15px",
+    fontSize: "40px",
+}
+
+footer {
+    backgroundImage: "url(lighthouselogo1.jpg)",
+    backgroundRepeat: "repeat-x",
+    backgroundColor: "#191970",
+    color: "#FFE4C4",
+    fontSize: "10px",
+    fontStyle: "italic",
+    textAlign: "center",
+    marginTop: "-2em",
+    border: "1px #FFE4C4",
+    borderRadius: "6px",
+    borderStyle: "ridge",
+    height: "45px",
+    marginTop: "5px",
+}
+
+#address {
+    color: "#00008B",
+    fontSize: "92%",
+    fontFamily: "calibri",
+    backgroundImage: "url(ocean.jpg)",
+    borderRadius: "2px",
+    borderStyle: "ridge",
+    borderColor: "#FFE4C4",
+    borderWidth: "0.3px",
+    marginTop: "50px",
+    padding: "8px",
+}
+
+h3 {
+    color: "#221811",
+}
+
+h4 {
+    color: "#FFE4C4",
+    marginLeft: "30px",
+    fontSize: "14px",
+}
+
+div>img {
+    paddingTop: "17px",
+}
+
+head {
+    backgroundColor: "#191970",
+    textAlign: "center",
+}
+
+li {
+    color: "#FFE4C4",
+}
+
+nav {
+    textAlign: "left",
+    fontWeight: "200",
+    display: "table-cell",
+    width: "200px",
+    marginLeft: "0",
+}
+
+nav div {
+    marginTop: "95px",
+    paddingTop: "10px",
+    paddingLeft: "8px",
+}
+
+nav a {
+    textDecoration: "none",
+    fontWeight: "bold",
+    fontSize: "15px",
+}
+
+nav p {
+    color: "#FFE4C4",
+    fontSize: "92%",
+    fontFamily: "calibri",
+    marginLeft: "2px",
+}
+
+p>strong>u {
+    color: "#A52A2A",
+    fontFamily: "Calibri",
+    fontSize: "1.3em",
+}
+
+ul {
+    list-styleImage: "url(marker.gif)",
+}
+
+#wrapper {
+    marginLeft: "auto",
+    marginRight: "auto",
+    minWidth: "750px",
+    maxWidth: "900px",
+    width: "80%",
+}
+
+main {
+    display: "table-cell",
+    paddingLeft: "30px",
+}
+
+main,
+h3,
+p {
+    marginLeft: "30px",
+}
+
+main ul {
+    fontSize: "14px",
+    paddingTop: "40px",
+}
+
+main img {
+    paddingLeft: "10px",
+}
+
+table td {
+    padding: "20px",
+    paddingBottom: "10px",
+    borderStyle: "solid",
+    borderWidth: "1px",
+    borderColor: "#FFE4C4",
+}
+
+table {
+    border: "1px",
+    tableLayout: "fixed",
+    borderSpacing: "0.1px",
+}
+
+table,
+tr {
+    height: "10px",
+}
+
+th {
+    height: "30px",
+}
+
+form {
+    marginLeft: "30px",
+    marginBottom: "10px",
+    paddingRight: "140px",
+    paddingTop: "10px",
+    paddingLeft: "50px",
+    paddingBottom: "60px",
+}
+
+
+.fname {
+    marginLeft: "60px",
+}
+
+.lname {
+    marginLeft: "60px",
+}
+
+.mail {
+    marginLeft: "95px",
+}
+
+.phone {
+    marginLeft: "105px",
+}
+
+.date {
+    marginLeft: "115px",
+}
+
+.time {
+    marginLeft: "115px",
+}
+
+.comment {
+    marginLeft: "65px",
+}
+
+.guest {
+    marginLeft: "6px",
+}
+
+
+input[type=submit] {
+    backgroundColor: "#00BFFF",
+    border: "ridge",
+    marginRight: "10px",
+    paddingRight: "10px",
+}
+
+.scrollabletextbox {
+    overflow: "scroll",
+}
+
+.alternateText {
+    display: "none",
+}
+
+.rightfloat {
+    float: "right",
+}
+
+.tableHeader {
+    backgroundColor: "#00008B",
+    color: "#EAEAEA",
+    fontSize: "13px",
+}
+
+.row2Color {
+    backgroundColor: "#A9A9A9",
+}
+
+.divx {
+    height: "130px",
+    width: "200px",
+}
+
+.center {
+    textAlign: "center",
+}
+
+caption {
+    textAlign: "left",
+    fontSize: "1.2em",
+}
+
+.desktop {
+    display: "inline",
+}
+
+.mobel {
+    display: "none",
+}
+
+.tborder {
+    borderStyle: "solid",
+    borderColor: "#00008B",
+}
+
+
+
+/*Tablet device*/
+
+@media only screen and ( max-width: 64em) {
+
+    body {
+        margin: "0",
+    }
+
+    div {
+        minWidth: "0",
+        width: "auto",
+        boxShadow: "none",
+    }
+
+    main ul {
+        clear: "none",
+    }
+
+    main {
+        marginLeft: "0",
+        display: "block",
+    }
+
+    nav {
+        display: "inline",
+        width: "auto",
+        textAlign: "center",
+        padding: "0.5em",
+        float: "none",
+        marginBottom: "15px",
+    }
+
+    nav li {
+        paddingTop: "0.25em",
+        paddingBottom: "0.25em",
+        paddingLeft: "0.75em",
+        paddingRight: "0.75em",
+        textAlign: "center",
+        display: "inline",
+    }
+
+    nav ul li {
+        margin: "0",
+        textAlign: "center",
+    }
+
+    main img {
+        marginBottom: "5px",
+    }
+
+    #wrapper {
+        minWidth: "0",
+        margin: "0",
+        width: "auto",
+    }
+
+    #address {
+        border: "none",
+        padding: "0",
+        backgroundImage: "none",
+        color: "#ffe4c4",
+    }
+
+    footer {
+        marginLeft: "0",
+        clear: "right",
+    }
+
+    h1 {
+        font: "2.25em",
+    }
+}
+
+
+
+/*Mobile device*/
+
+@media only screen and ( max-width: 37.5em) {
+
+    header {
+        paddingTop: "1em",
+    }
+
+    main {
+        paddingTop: "0.1em",
+        paddingBottom: "0.1em",
+        paddingLeft: "1em",
+        paddingRight: "1em",
+        fontSize: "90%",
+    }
+
+    h1 {
+        fontSize: "1.5em",
+    }
+
+    nav a {
+        display: "block",
+    }
+
+    main img {
+        display: "none",
+        backgroundImage: "none",
+        height: "0",
+    }
+
+    table {
+        display: "none",
+    }
+
+    .alternateText {
+        display: "block",
+    }
+
+    .desktop {
+        display: "none",
+    }
+
+    .mobel {
+        display: "inline",
+        textDecoration: "underline",
+    }
+}
